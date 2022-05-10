@@ -1,0 +1,110 @@
+/* section 2 */
+.mission-and-vision {
+  text-align: center;
+}
+
+.mission-and-vision h1{
+    color: #1565C0;
+}
+
+.mission-and-vision-card-container{
+    background-image: url('../../imgs/missionandvisionbg.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.mission-and-vision-card{
+    background-color:  rgba(17, 59, 208, 0.9);
+    border-radius: 20px;
+    padding : 50px;
+    color: #fff;
+    letter-spacing:1px;
+}
+
+/* section 3 */
+
+.capabilities-and-research-container{
+    display: flex;
+    justify-content:center;
+    padding: 0 60px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.capabilities-container{
+    border-right: 4px solid #1565C0;
+    padding-right: 30px;
+}
+
+.capabilities-container h5{
+    background-color: #5793ED;
+    display: inline-block;
+    padding: 4px 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 5px -10px 0px #113BD0;
+    margin-bottom: 30px;
+}
+
+.capabilities-container p{
+    letter-spacing: 1px;
+}
+
+.search-container{
+    padding-left: 30px;
+}
+
+.search-container h5{
+    background-color: #5793ED;
+    display: inline-block;
+    padding: 4px 20px;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 5px -10px 0px #113BD0;
+    margin-bottom: 30px;
+}
+
+.search-container p{
+    letter-spacing:1px;
+}
+
+@media screen and (max-width:550px){
+    .mission-and-vision-card-container{
+        padding: 20px;
+    }
+
+    .mission-and-vision-card{
+        padding: 20px
+    }
+    .mission-and-vision-card p{
+        letter-spacing:normal;
+    }
+
+    .capabilities-and-research-container{
+        display: flex;
+        flex-direction: column;
+        justify-content : center;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .capabilities-container{
+        border : none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 25px;
+        border-bottom: 3px solid #113BD0;
+        letter-spacing: normal;
+    }
+
+    .search-container{
+        border : none;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 25px;
+        letter-spacing: normal;
+    }
+}

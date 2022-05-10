@@ -1,0 +1,92 @@
+/* section 2 */
+
+.product-and-services-heading {
+  text-align: center;
+}
+
+.product-and-services-sub-container {
+  padding: 60px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-and-services-sub-container-image-container h4{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.product-and-services-sub-container-text-container p {
+  margin-top: 20px;
+  margin-left: 50px;
+  letter-spacing: 1px;
+  line-height: 2.5rem;
+}
+
+.financial-advice-img {
+  width: 250px;
+}
+
+.our-services-heading {
+  text-align: center;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+  width: 250px;
+  border-radius: 36px;
+  background: #113bd0;
+  box-shadow: 13px 13px 0px #0e32af, -13px -13px 0px #8999d6;
+  margin-bottom: 25px;
+}
+
+.our-services-first-container{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 140px;
+}
+
+.our-services-second-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding: 60px 40px;
+}
+
+@media screen and (max-width: 770px){
+  .product-and-services-sub-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 0;
+    padding:0;
+  }
+
+  .product-and-services-sub-container-text-container{
+    margin: 0;
+    padding : 0;
+    text-align: center;
+  }
+
+  .product-and-services-sub-container-text-container p{
+    letter-spacing: normal;
+    margin: 0;
+    padding : 20px;
+  }
+
+  .our-services-first-container{
+    margin : 0;
+    flex-direction: column;
+  }
+
+  .image-container{
+    margin-bottom: 25px;
+  }
+}

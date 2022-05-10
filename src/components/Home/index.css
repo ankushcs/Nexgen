@@ -1,0 +1,274 @@
+/* section 3 */
+
+.portfolio-management-service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  border-radius: 0px;
+  background: #5793ed;
+  box-shadow: 14px 14px 8px #0a2279, -14px -14px 8px #1854ff;
+  text-align: center;
+  margin : 50px;
+}
+
+.portfolio-management-service > h3 {
+  color: white;
+}
+
+.contact-us-button {
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #5793ed;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-us-button:hover {
+  transform: scale(1.1);
+}
+
+.modal-top{
+  text-align: center;
+  padding: 30px !important;
+}
+
+.modal-title{
+  font-size: 1.3rem!important;
+  color: #1854ff;
+}
+
+.modal-top p{
+  font-weight: 500;
+}
+
+.text-field{
+  margin: 15px 0;
+}
+
+.home-contact-us-form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.home-contact-us-button{
+  margin-top: 25px;
+}
+
+.home-contact-us-button:hover{
+  background-color: #5793ed!important;
+  outline: none;
+  border: 1px solid #5793ed!important;
+}
+
+/* section 4 */
+
+.saving-leads-to-investment {
+  padding: 100px 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.saving-img {
+  flex: 1;
+  width: 300px;
+}
+
+.saving-text-container {
+  flex: 2;
+  margin-left: 25px;
+}
+
+.saving-text-container > h3 {
+  text-align: center;
+}
+
+.saving-text-container ul {
+  list-style: none;
+}
+
+.saving-text-container ul li::before {
+  content: "\2022";
+  color: #05386d;
+  font-weight: 700;
+  display: inline-block;
+  width: 0.8em;
+  margin-left: -1em;
+  font-size: 2em;
+}
+
+.saving-text-container ul li {
+  font-weight: 500;
+}
+
+/* section 5 */
+
+.our-notice-board-container {
+  padding: 40px 40px;
+}
+
+.our-notice-board-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #5793ed;
+  box-shadow: 14px 14px 8px #0a2279, -14px -14px 8px #1854ff;
+  padding: 20px 80px;
+  border-radius: 50px;
+}
+
+
+.our-notice-board-card-text-container h3{
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.our-notice-board-card-text-container p{
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+}
+
+.our-notice-board-card-img-container img{
+    border-radius: 30px;
+    width: 300px;
+}
+
+/* section 7 */
+
+.what-do-you-want-to-do-container{
+    padding: 60px 40px;
+}
+
+.what-do-you-want-to-do-container h3{
+    text-align: center;
+}
+
+.want-to-do-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 80px;
+}
+
+/* section 7 */
+.our-brand-partners{
+    padding: 60px 40px;
+}
+
+.our-brand-partners h3{
+    text-align: center;
+}
+
+.brand-partners-brands-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.brand-partners-img{
+    height : 250px;
+    width :auto;
+    border: 2px solid #1854ff;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 550px) {
+  .portfolio-management-service{
+    width : 75%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+
+  .portfolio-management-service h3{
+    font-size: 1.2rem;
+  }
+
+  .contact-us-button{
+    font-size: 0.8rem;
+  }
+
+  .modal-container{
+    width : 300px!important;
+    text-align: center;
+  }
+
+  .modal-top{
+    padding: 20px 10px !important;
+  }
+
+  .saving-leads-to-investment{
+    padding: 70px 20px;
+  }
+
+  .saving-img{
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .our-notice-board-container{
+    padding: 70px 30px;
+  }
+
+  .our-notice-board-card{
+    display: flex;
+    flex-direction: column;
+    padding : 50px 20px;
+  }
+
+  .our-notice-board-card-text-container p{
+    font-size: 0.9rem;
+  }
+
+  .our-notice-board-card-img-container{
+    width : 100%;
+  }
+  
+  .our-notice-board-card-img-container img{
+    width : 100%;
+  }
+
+  .what-do-you-want-to-do-container h3{
+    font-size: 1.5rem;
+  }
+
+  .want-to-do-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand-partners-brands-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .brand-partners-img{
+    margin-bottom: 25px;
+    width : 80%;
+    height : auto;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 770px){
+    .brand-partners-img{
+      width : 200px;
+      height: auto;
+    }
+
+    .our-notice-board-card-text-container p{
+      font-size: 0.8rem;
+    }
+}

@@ -1,0 +1,20 @@
+.header-container{
+    background-color: #5793ED;
+    color: white;
+    padding : 10px;
+}
+
+.header-div-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.header-first-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width : 300px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,179 @@
+/* section 2 */
+.about-us-first-container{
+    background-image: url('../../imgs/abtusbg.png');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+    padding-top: 80px;
+    padding-left: 100px;
+    display : flex;
+    flex-direction: column;
+}
+
+.about-us-first-inner-text-container{
+    background-color: #5793ED;
+    padding : 60px;
+    width: 60%;
+    font-weight: 500;
+    letter-spacing: 2px;
+    box-shadow: -10px -10px 0px #113BD0;
+    font-size: 1.2rem;
+    color: #fff;
+    /* height: 400px; */
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.inner-image{
+    height: 400px;
+    width: 400px;
+    border-radius: 700px;
+    position: relative;
+    top: -50px;
+    margin-left: 50%;
+    box-shadow: 15px 0px 0px #2196F3;
+}
+
+/* section 3 */
+
+.au-our-responsibilities-container{
+    display: flex;
+    justify-content: center;
+    padding : 40px;
+}
+
+.au-our-responsibilities-img{
+    width: 500px;
+    flex: 1;
+}
+
+.au-our-responsibilities-text-container{
+    flex: 1;
+    padding-left: 25px;
+    margin-top: 50px;
+}
+
+.au-our-responsibilities-text-container h1{
+    font-size: 1.7rem;
+    letter-spacing:2px;
+
+}
+.au-our-responsibilities-text-container p{
+    font-size: 1.1rem;
+    font-weight: 500;
+    letter-spacing:2px;
+}
+
+.or-tc-inner-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.or-tc-inner-img{
+    width: 80px;
+    margin-right: 15px;
+}
+
+.or-tc-inner-text-container h3{
+    font-size: 1.4rem
+}
+.or-tc-inner-text-container p{
+    font-size: 1rem;
+    letter-spacing:2px;
+}
+
+/* section 4 */
+.au-our-tem-container{
+    text-align: center;
+    margin: 50px;
+}
+
+.au-our-tem-para{
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 500;
+}
+
+.au-our-team-card-container{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top: 50px;
+}
+
+.au-our-team-card-img{
+    width: 300px;
+    border: 10px solid #5793ED;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0px #113BD0 ;
+}
+
+.co-founder-name{
+    margin-top: 25px;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 770px){
+    /* section 2 */
+    .about-us-first-container{
+        padding : 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        
+    }
+
+    .about-us-first-inner-text-container{
+        text-align: center;
+        padding : 25px;
+        align-self:  flex-start;
+    }
+
+    .about-us-first-inner-text-container p{
+        font-size: 0.9rem;
+        letter-spacing:normal;
+        line-height: normal;
+    }
+
+    .inner-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 500px;
+    position: relative;
+    top: -30px;
+    margin-left: 33%;
+    box-shadow: 15px 0px 0px #2196F3;
+    }
+
+    /* section 3 */
+    .au-our-responsibilities-container{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align : center;
+    }
+    .au-our-responsibilities-img{
+        width: 100%;
+        height: auto;
+    }
+
+    .or-tc-inner-container{
+        flex-direction: column;
+    }
+
+    .or-tc-inner-img{
+        margin-bottom: 15px;
+    }
+
+    /* section 4 */
+    .au-our-team-card-container{
+        flex-direction: column;
+    }
+
+    .au-our-team-card-img{
+        width : 80%;
+    }
+}
