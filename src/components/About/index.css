@@ -102,6 +102,10 @@
     margin-top: 50px;
 }
 
+.au-our-team-card p a{
+    cursor: pointer;
+}
+
 .au-our-team-card-img{
     width: 300px;
     border: 10px solid #5793ED;

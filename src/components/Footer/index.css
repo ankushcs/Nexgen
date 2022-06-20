@@ -23,6 +23,12 @@
     text-align:end;
 }
 
+.location-icon{
+    color: white;    
+    font-size: 20px;
+    margin-right: 4px;
+}
+
 @media screen and (max-width: 550px){
     .footer-top-container{
         display: flex;

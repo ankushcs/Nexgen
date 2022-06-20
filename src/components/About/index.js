@@ -12,13 +12,18 @@ import auor3 from "../../imgs/auor3.png";
 import auor4 from "../../imgs/auor4.png";
 
 import abtusot from "../../imgs/abtusot.png";
+import abtusteam1 from "../../imgs/abtusteam1.jpeg";
+import abtusteam2 from "../../imgs/abtusteam2.jpeg";
+import abtusteam3 from "../../imgs/abtusteam3.jpeg";
 
 import "./index.css";
+
+let abtusteam2LinkedInUrl = "https://www.linkedin.com/in/debadipb/";
 
 const About = () => {
   return (
     <>
-      <Header/>
+      <Header />
       {/* section 1 */}
       <NavbarComp1 />
 
@@ -119,37 +124,40 @@ const About = () => {
           {/* first */}
           <div className="au-our-team-card">
             <img
-              src={abtusot}
+              src={abtusteam1}
               alt="co-founder-img"
               className="au-our-team-card-img"
             />
-            <p className="co-founder-name">Debadip Bandhopadhya</p>
+            <p className="co-founder-name">Sandip Saha</p>
             <p>
-              <BsLinkedin color="#2196F3" size={20} /> Co-Founder
+              <BsLinkedin color="#2196F3" size={20} /> CFO & COO
             </p>
           </div>
           {/* second */}
           <div className="au-our-team-card">
             <img
-              src={abtusot}
+              src={abtusteam2}
               alt="co-founder-img"
               className="au-our-team-card-img"
             />
             <p className="co-founder-name">Debadip Bandhopadhya</p>
             <p>
-              <BsLinkedin color="#2196F3" size={20} /> Co-Founder
+              <a href={abtusteam2LinkedInUrl} target="_blank">
+                <BsLinkedin color="#2196F3" size={20} />
+              </a>{" "}
+              CMO / CRO
             </p>
           </div>
           {/* third */}
           <div className="au-our-team-card">
             <img
-              src={abtusot}
+              src={abtusteam3}
               alt="co-founder-img"
               className="au-our-team-card-img"
             />
-            <p className="co-founder-name">Debadip Bandhopadhya</p>
+            <p className="co-founder-name">Sayantika Saha</p>
             <p>
-              <BsLinkedin color="#2196F3" size={20} /> Co-Founder
+              <BsLinkedin color="#2196F3" size={20} /> CMO
             </p>
           </div>
         </div>
